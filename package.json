@@ -1,0 +1,24 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js",
+    "cucumber-html-report": "node report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.8.0",
+    "chai": "^5.1.1",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^7.1.1",
+    "puppeteer": "^22.12.1"
+  },
+  "devDependencies": {
+    "@types/cucumber": "^7.0.0"
+  }
+}
